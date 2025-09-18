@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificación UAQ</title>
+</head>
+<body>
+  <p>Redirigiendo a la verificación de documento…</p>
+
+  <form id="uaqForm" action="http://comunidad2.uaq.mx/validadocumento/VerificaDocumento.do" method="post" accept-charset="ISO-8859-1">
+    <input type="hidden" name="numDocumento" value="462985">
+    <input type="hidden" name="cadVerificacion" value="DGQEXJSPC">
+  </form>
+
+  <script>
+    document.getElementById('uaqForm').submit();
+  </script>
+</body>
+</html>
